@@ -19,10 +19,10 @@ An ablation test has also been performed to verify the impact of each feature in
 
 - Variable-time-delay:
 
-![Variable-time-delay](/results/variable_full.png "Variable-time-delay")
+![Variable-time-delay](/images/variable_full.png "Variable-time-delay")
 
 - Constant-time-delay:
 
-![Constant-time-delay](/results/constant_full.png "Constant-time-delay")
+![Constant-time-delay](/images/constant_full.png "Constant-time-delay")
 
 
