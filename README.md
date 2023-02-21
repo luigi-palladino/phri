@@ -7,7 +7,7 @@ Author:
 Luigi Palladino
 luigi.palladino@studenti.univr.it
 
-The scope of the project is to reproduce the architecture proposed in D. Sun, F. Naghdy and H. Du, "Wave-Variable-Based Passivity Control of Four-Channel Nonlinear Bilateral Teleoperation System Under Time Delays," in IEEE/ASME Transactions on Mechatronics, vol. 21, no. 1, pp. 238-253, Feb. 2016, doi: 10.1109/TMECH.2015.2442586.
+The scope of the project is to reproduce the 4-CH teleopration architecture proposed in D. Sun, F. Naghdy and H. Du, "Wave-Variable-Based Passivity Control of Four-Channel Nonlinear Bilateral Teleoperation System Under Time Delays," in IEEE/ASME Transactions on Mechatronics, vol. 21, no. 1, pp. 238-253, Feb. 2016, doi: 10.1109/TMECH.2015.2442586.
 
 The "robot" implemented is a very simple 1 DOF bar actuated by an electrical motor.
 
