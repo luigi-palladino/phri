@@ -9,6 +9,9 @@ Luigi Palladino - luigi.palladino@studenti.univr.it
 
 The scope of the project is to reproduce the 4-CH teleopration architecture proposed in D. Sun, F. Naghdy and H. Du, "Wave-Variable-Based Passivity Control of Four-Channel Nonlinear Bilateral Teleoperation System Under Time Delays," in IEEE/ASME Transactions on Mechatronics, vol. 21, no. 1, pp. 238-253, Feb. 2016, doi: 10.1109/TMECH.2015.2442586.
 
+![proposed-architecture](/images/proposed_architecture.png "proposed_architecture")
+
+
 Major contributions of this paper:
   1. Introduction of a new wave transformation that can be applied to a 4-CH architecture to achieve high transparency and channel passivity, even in the presence of constant time delays.
 
