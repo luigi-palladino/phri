@@ -15,7 +15,7 @@ The scope of the project is to reproduce the 4-CH teleopration architecture prop
 Major contributions of this paper:
   1. Introduction of a new wave transformation that can be applied to a 4-CH architecture to achieve high transparency and channel passivity, even in the presence of constant time delays.
 
-![proposed-waves](/images/wave_variables_proposed.png "proposed_wavs")
+![proposed-waves](/images/wave_variables_proposed.png "proposed_wavs" | width=50%)
 
   2. Development of a wave-based TDPA (Time-Delayed Passivity Approach) that guarantees system passivity even in the presence of time-varying delays.
 
