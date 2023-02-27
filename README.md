@@ -7,7 +7,9 @@ Università degli Studi di Verona
 Author:
 Luigi Palladino - luigi.palladino@studenti.univr.it
 
-The scope of the project is to reproduce the 4-CH teleopration architecture proposed in D. Sun, F. Naghdy and H. Du, "Wave-Variable-Based Passivity Control of Four-Channel Nonlinear Bilateral Teleoperation System Under Time Delays," in IEEE/ASME Transactions on Mechatronics, vol. 21, no. 1, pp. 238-253, Feb. 2016, doi: 10.1109/TMECH.2015.2442586.
+The scope of the project is to reproduce the 4-CH teleopration architecture proposed in the [original paper](https://ieeexplore.ieee.org/document/7119588):
+
+_D. Sun, F. Naghdy and H. Du, "Wave-Variable-Based Passivity Control of Four-Channel Nonlinear Bilateral Teleoperation System Under Time Delays," in IEEE/ASME Transactions on Mechatronics, vol. 21, no. 1, pp. 238-253, Feb. 2016, doi: 10.1109/TMECH.2015.2442586._
 
 ![proposed-architecture](/images/proposed_architecture.png "proposed_architecture")
 
@@ -64,7 +66,7 @@ They have been implemented as Level2 S-Functions "pcon_m/s".m and "pobs_m/s.m" i
     ![Passivity Controller](/images/passivity_controller.png "Passivity Controller")
 
     Coefficients for the controller:
-    
+
     ![Controller Coeff](/images/controller_coefficients.png "controller_coefficients")
 
 ## Ablation tests on position:
