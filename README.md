@@ -15,6 +15,8 @@ The scope of the project is to reproduce the 4-CH teleopration architecture prop
 Major contributions of this paper:
   1. Introduction of a new wave transformation that can be applied to a 4-CH architecture to achieve high transparency and channel passivity, even in the presence of constant time delays.
 
+![proposed-waves](/images/wave_variables_proposed.png.png "proposed_wavs")
+
   2. Development of a wave-based TDPA (Time-Delayed Passivity Approach) that guarantees system passivity even in the presence of time-varying delays.
 
   3. Demonstration that the proposed system can achieve higher transparency compared to passivity-based systems from previous work while maintaining stability under random time delays.
@@ -33,12 +35,40 @@ Results in constant and variable delay listed below.
 
 An ablation test has also been performed to verify the impact of each feature in the architecture.
 
+
+## Full architecture:
+
 - Variable-time-delay:
 
-![Variable-time-delay](/images/variable_full.png "Variable-time-delay")
+  - Position:
+
+    ![Variable-time-delay](/images/variable_full.png "Variable-time-delay")
 
 - Constant-time-delay:
 
-![Constant-time-delay](/images/constant_full.png "Constant-time-delay")
+  - Position:
+
+    ![Constant-time-delay](/images/constant_full.png "Constant-time-delay")
+
+## Ablation tests:
+
+1. Base 4-CH architecture:
+
+    - Constant delay:
+    ![Constant-time-delay](/images/base_architecture_constant.png.png "Constant-time-delay")
+
+    - Variable Delay:
+    ![Constant-time-delay](/images/base_architecture_variable.png.png "Constant-time-delay")
+
+2. Classic wave-variables:
+
+    - Constant delay:
+    ![Constant-time-delay](/images/normal_waves_constant.png.png "Constant-time-delay")
+
+    - Variable Delay:
+    ![Constant-time-delay](/images/normal_waves_variable.png.png "Constant-time-delay")
+
+
+
 
 
