@@ -51,6 +51,22 @@ An ablation test has also been performed to verify the impact of each feature in
 
     ![Constant-time-delay](/images/constant_full.png "Constant-time-delay")
 
+### Passivity Observer and Controller
+They have been implemented as Level2 S-Functions "pcon_m/s".m and "pobs_m/s.m" in line with equations described in the original paper.
+
+  - Passivity Observer:
+
+    ![Passivity Observer](/images/passivity_observer.png "Passivity Observer")
+
+
+  - Passivity Controller:
+
+    ![Passivity Controller](/images/passivity_controller.png "Passivity Controller")
+
+    Coefficients for the controller:
+    
+    ![Controller Coeff](/images/controller_coefficients.png "controller_coefficients")
+
 ## Ablation tests on position:
 
 1. Base 4-CH architecture:
