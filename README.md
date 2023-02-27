@@ -55,18 +55,18 @@ An ablation test has also been performed to verify the impact of each feature in
 1. Base 4-CH architecture:
 
     - Constant delay:
-    ![Constant-time-delay](/images/base_architecture_constant.png.png "Constant-time-delay")
+    ![Constant-time-delay](/images/base_architecture_constant.png "Constant-time-delay")
 
     - Variable Delay:
-    ![Constant-time-delay](/images/base_architecture_variable.png.png "Constant-time-delay")
+    ![Constant-time-delay](/images/base_architecture_variable.png "Constant-time-delay")
 
 2. Classic wave-variables:
 
     - Constant delay:
-    ![Constant-time-delay](/images/normal_waves_constant.png.png "Constant-time-delay")
+    ![Constant-time-delay](/images/normal_waves_constant.png "Constant-time-delay")
 
     - Variable Delay:
-    ![Constant-time-delay](/images/normal_waves_variable.png.png "Constant-time-delay")
+    ![Constant-time-delay](/images/normal_waves_variable.png "Constant-time-delay")
 
 
 
