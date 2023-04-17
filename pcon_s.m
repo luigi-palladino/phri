@@ -10,15 +10,15 @@ function pcon_s(block)
 function setup(block)
   
   %% Register number of input and output ports
-  block.NumInputPorts  = 4;
-  block.NumOutputPorts = 2;
+  block.NumInputPorts  = 3;
+  block.NumOutputPorts = 1;
 
   block.OutputPort(1).SamplingMode = 'Sample';
-  block.OutputPort(2).SamplingMode = 'Sample';
+  %block.OutputPort(2).SamplingMode = 'Sample';
   block.InputPort(1).SamplingMode = 'Sample';
   block.InputPort(2).SamplingMode = 'Sample';
   block.InputPort(3).SamplingMode = 'Sample';
-  block.InputPort(4).SamplingMode = 'Sample';
+  %block.InputPort(4).SamplingMode = 'Sample';
   %% Setup functional port properties to dynamically
   %% inherited.
 %   block.SetPreCompInpPortInfoToDynamic;
@@ -56,13 +56,12 @@ function Output(block)
   if POs > 0
       L2=0;
   elseif abs(Is)>0
-      L2=-POs*pinv((Is.')*Is);
-  else
-      L2 = block.InputPort(4).Data;
+      %L2=POs*pinv((Is.')*Is);
+      L2=POs*((Is*Is)^-1);
   end
 
   block.OutputPort(1).Data = Vs + L2.*Is;
-  block.OutputPort(2).Data = L2;
+  %block.OutputPort(2).Data = L2;
   
 %endfunction
 

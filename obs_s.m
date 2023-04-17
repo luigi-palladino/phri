@@ -46,8 +46,8 @@ function Output(block)
   ust = us.';
   vst = vs.';
   B = block.InputPort(4).Data;
-  M = block.InputPort(4).Data;
-  block.OutputPort(1).Data = (2/(B*(1+B)))*vst*vs + ((2*M)/(1+B))*ust*us - (1/(M*(1+B)))*((vs + M*ust).')*(vs + M*us) - ((M*(1+B))*e2*ust*us);
+  M = block.InputPort(5).Data;
+  block.OutputPort(1).Data = (2/(B*(1+B)))*vst*vs + ((2*M)/(1+B))*ust*us - (1/(M*(1+B)))*((vs + M*ust).')*(vs + M*us) - ((M/(1+B))*e2*ust*us);
   
 %endfunction
 

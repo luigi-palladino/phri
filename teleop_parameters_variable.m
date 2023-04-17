@@ -1,25 +1,25 @@
 clc
 clear
 
-Filter = 1;
+
 %set_param(gcs,'DataTypeOverride','Off');
 % --- parameters ---
-a1 = 1; %1.9
-a2 = 1; %2.3
-b=8.5; % 2.5
-B=13;
-M=1;
+a1 =1.1;%1; %1.9
+a2 =1.0101;%1; %2.3
+b=2.17;%10.17;%10.17; % 2.5
+B=2.0096;%.0096001;%2.0096;%2.009;
+M=1;%1;
 %clear B;
 % These commands must be executed from inside your function 
 % evalin('B','save B.mat');
 % evalin('M','save B.mat');
-ka=-0.0109;%-0.0109;%-0.04199;
-kb=0.0089999;%0.0029999;
+ka=1;%0.004199;%-0.0109;%-0.04199;
+kb=0.1%0.101;%93555e-6;%0.0099999;%0.0029999;
 delta=100;
 % e1 = 1;
 % e2 = 1;
 %Filter = 10;
-beta=-0.000000119;%0.000001; %2
+beta=1e-4;%1.3e-2;%-1.2e-4;%1.55e-4;%25e-9;%25e-9;%0.00019;%0.000000119;%0.000001; %2
 %% communication delays
 d_m2s = 2; % x Ts
 d_s2m = 2; % x Ts
@@ -59,9 +59,9 @@ beta_m = 2*pi*Fc_vel*Ts;
 %% Environment PD
 lArm_m = 0.1; % m
 lArm_s = 0.1; % m
-qe = 0.5; % environment position (rad)
+qe = 10; % environment position (rad)
 Be = 5;
-Ke = 10;
+Ke = 100;
 
 % %% Numerical derivative
 % Flp = 10; %[Hz]
@@ -80,12 +80,12 @@ Bh = 0.02;
 
 
 %% Passivity controller gains for master robot
-Kp_m = 1; %0.01;
-Kd_m = 0.5; %0.005;
+Kp_m = 1;%1e-1;%1e-1; %0.01;
+Kd_m = 0.5;%0.5e-1;%0.5e-1; %0.005;
 
 %% Passivity controller gains for slave robot
-Kp_s = 1;
-Kd_s = 0.5;
+Kp_s = 1;%2e-1;%1.05e-2;
+Kd_s = 0.5;%6.11e-4;%6.11e-4;%6.5e-4;%0.6565e-1;
 
 %% Master/Slave Motor constants
 Kt2c_m = 1.182; % torque -> current

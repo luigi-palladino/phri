@@ -1,3 +1,6 @@
+## All the new implementation based on "Bilateral Telemanipulation with Time Delays: A Two-Layer Approach combining Passivity and Transparency by M Franken, S Stramigioli, S Misra, C Secchi and A Machelli"
+## Available in "tank_based" folder
+
 # phri
 
 Project for Physical Human Robot Interaction course A.Y. 2022-2023.

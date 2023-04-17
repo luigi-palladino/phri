@@ -1,24 +1,28 @@
 clc
 clear
-
-Filter = 10;
+extra=1;
+Filter = 1;
 %set_param(gcs,'DataTypeOverride','Off');
 % --- parameters ---
 a1 = 1; %1.9
 a2 = 1; %2.3
 b=8.5; % 2.5
-M=2.5; % 1 --> change in obs too
-B=5; % 2 --> change in obs too
-ka=-0.0109;
-kb=0.999;
+B=13;
+M=1;
+%clear B;
+% These commands must be executed from inside your function 
+% evalin('B','save B.mat');
+% evalin('M','save B.mat');
+ka=0.0109;%-0.0109;%-0.04199;
+kb=0.0089999;%0.0029999;
 delta=1;
-e1 = 1;
-e2 = 1;
+% e1 = 1;
+% e2 = 1;
 %Filter = 10;
-beta=-0.000119;%0.000001; %2
+beta=0.000000119;%0.000001; %2
 %% communication delays
-d_m2s = 10; % x Ts
-d_s2m = 10; % x Ts
+d_m2s = 2; % x Ts
+d_s2m = 2; % x Ts
 d_mean = 5;
 d_var = 5; %variance from mean in random delay
 

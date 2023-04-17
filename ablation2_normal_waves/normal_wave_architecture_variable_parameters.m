@@ -23,6 +23,7 @@ beta=1;%0.000001; %2
 %% communication delays
 d_m2s = 0.001; % x Ts
 d_s2m = 0.001; % x Ts
+diff=0.0001;
 d_mean = 5;
 d_var = 5; %variance from mean in random delay
 
