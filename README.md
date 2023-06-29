@@ -1,5 +1,4 @@
-## All the new implementation based on "Bilateral Telemanipulation with Time Delays: A Two-Layer Approach combining Passivity and Transparency by M Franken, S Stramigioli, S Misra, C Secchi and A Machelli"
-## Available in "tank_based" folder
+### All the new implementation based on "Bilateral Telemanipulation with Time Delays: A Two-Layer Approach combining Passivity and Transparency by M Franken, S Stramigioli, S Misra, C Secchi and A Machelli" available in "tank_based" folder.
 
 # phri
 
